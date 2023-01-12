@@ -18,10 +18,12 @@ class ViewController: UIViewController {
     
     
     @IBAction func flashbutton(_ sender: Any) {
-        onButtonTap(_ sender: UIButton) {
-            self.view.backroundColor = UIColor.Blue
+         
+        self.view.backgroundColor = UIColor.blue
         }
         
         
+        
+        
+        
     }
-}
